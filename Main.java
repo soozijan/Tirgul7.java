@@ -9,3 +9,12 @@
         Collections.sort(continentArrayList,new ContinentSortByName());
         System.out.println(continentArrayList);
 
+//שאלה 11
+        Stack<String> stack = new Stack<String>();
+        stack.push("Hello");
+        stack.push("beautiful");
+        stack.push("Java");
+        System.out.println(stack.pop());
+        System.out.println(stack.peek());
+        System.out.println(stack);
+
