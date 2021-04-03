@@ -31,3 +31,12 @@
 
         myQueue.remove();
 
+ // שאלה 13
+        ArrayList<Box> box = new ArrayList<>();
+        Box box1 = new Box("iphone","Moshe");
+        Box box2 = new Box("Tablet","Nissim");
+        Box box3 = new Box("Canon","Royi");
+        Box box4 = new Box("Shiumi","Pered");
+        Box box5 = new Box("iphon 6","Liran");
+        
+
