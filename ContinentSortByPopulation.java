@@ -2,7 +2,7 @@ package Tirgul7;
 
 import java.util.Comparator;
 
-public class ComtinentSortByPopulation implements Comparator<Continent> {
+public class ContinentSortByPopulation implements Comparator<Continent> {
     @Override
     public int compare(Continent o1,Continent o2) {
 
