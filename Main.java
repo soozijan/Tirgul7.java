@@ -38,5 +38,15 @@
         Box box3 = new Box("Canon","Royi");
         Box box4 = new Box("Shiumi","Pered");
         Box box5 = new Box("iphon 6","Liran");
+
+//שאלה 21
+        try {
+            int a = 30;
+            int b = 0;
+            int c = a / b;
+        }
+        catch (Exception exception)   {
+            System.out.println("Ooops");
+        }
         
 
