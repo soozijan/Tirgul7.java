@@ -18,3 +18,16 @@
         System.out.println(stack.peek());
         System.out.println(stack);
 
+ //שאלה 12
+        Queue<Double> myQueue = new ArrayDeque<Double>();
+        myQueue.add(8.23);
+        myQueue.add(7.587);
+        myQueue.add(6.2547);
+        System.out.println(myQueue);
+        System.out.println();
+        System.out.println(myQueue.poll());
+        System.out.println(myQueue);
+       System.out.println(myQueue.peek());
+
+        myQueue.remove();
+
